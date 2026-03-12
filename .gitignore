@@ -1,0 +1,19 @@
+# Public-safe default:
+# ignore everything unless it is explicitly allowlisted below.
+/*
+
+# Keep repository metadata and public-facing docs.
+!/.gitignore
+!/README.md
+!/LICENSE
+!/LICENSE.*
+!/.github/
+!/.github/**
+
+# Keep only the images intentionally prepared for the README.
+!/readme_assets/
+/readme_assets/*
+!/readme_assets/*.png
+!/readme_assets/*.jpg
+!/readme_assets/*.jpeg
+!/readme_assets/*.webp
